@@ -253,15 +253,15 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 
 
-// AJAX MODAL FAQ
+// AJAX MODAL CONTACT
 window.addEventListener("DOMContentLoaded", (event) => {
   // ajaxmodal component
   function adjaxModal() {
-    let lightbox = $("[tr-ajaxmodal-element='lightbox-faq']");
+    let lightbox = $("[tr-ajaxmodal-element='lightbox-contact']");
     let lightboxClose = $("[tr-ajaxmodal-element='lightbox-close']").attr("aria-label", "Close Modal");
-    let lightboxModal = $("[tr-ajaxmodal-element='lightbox-modal-faq']");
-    let cmsLink = "[tr-ajaxmodal-element='faq-link']";
-    let cmsPageContent = "[tr-ajaxmodal-element='cms-page-content-faq']";
+    let lightboxModal = $("[tr-ajaxmodal-element='lightbox-modal-contact']");
+    let cmsLink = "[tr-ajaxmodal-element='contact-link']";
+    let cmsPageContent = "[tr-ajaxmodal-element='cms-page-content-contact']";
     let initialPageTitle = document.title;
     let initialPageUrl = window.location.href;
     let focusedLink;
