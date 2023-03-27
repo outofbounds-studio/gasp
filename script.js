@@ -1,3 +1,5 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+
 <script>
 // AJAX MODAL POWER-UP
 window.addEventListener("DOMContentLoaded", (event) => {
